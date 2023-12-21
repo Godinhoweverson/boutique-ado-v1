@@ -112,7 +112,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/success'
 
-EMAIL_BACKEND = 'django.core.mail.backeds.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
